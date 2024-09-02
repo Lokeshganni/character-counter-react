@@ -1,0 +1,85 @@
+.main-container {
+  display: flex;
+  font-family: 'Roboto';
+}
+
+.left-container {
+  width: 50%;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.heading-container {
+  background-color: #ffbf1f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  height: 22vh;
+}
+
+.heading-container h1 {
+  color: #334155;
+  font-size: 34px;
+}
+
+.img-container {
+  background-color: #ffc533;
+  margin: 0;
+  width: 100%;
+  height: 78vh;
+  padding: 25px;
+}
+
+.img-container img {
+  width: 100%;
+}
+
+.right-container {
+  width: 50%;
+  background-color: #0f172a;
+  min-height: 100vh;
+  padding: 25px 0;
+}
+
+.right-container h1 {
+  color: #ffbf1f;
+  font-size: 34px;
+  text-align: center;
+}
+
+.input-and-add-btn-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  padding: 25px 75px;
+}
+
+.input-ele {
+  width: 100%;
+  height: 31px;
+  padding: 0 10px;
+  outline: none;
+}
+
+.cstm-btn {
+  background-color: #ffbf1f;
+  color: #272c47;
+  font-weight: 600;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 8px 24px;
+  margin-left: 25px;
+}
+
+.li-ele {
+  list-style-type: none;
+  font-size: 20px;
+  font-weight: 600;
+  color: #272c47;
+  margin-bottom: 10px;
+}
